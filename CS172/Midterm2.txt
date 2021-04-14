@@ -1,0 +1,36 @@
+Quinn Morrissey, CS172, Midterm 2
+
+1. The keyword new is used when creating an object.
+
+2. False, in many cases recursive functions have multiple base cases.
+
+3. Yes, s == null returns true.
+
+4. Yes, a class can be used as the type of an instance variable in another class (Ex: Vector type in class Starship).
+
+5. An instance variable should be initialized in the class method of the same name as the class or in some other method within the class. 
+
+6. This is a reserved word in Java. That is not.
+
+7. 
+class Rectangle { 
+    private double width; 
+    private double height; 
+
+    public Rectangle(double w, double h) { 
+        width = w; 
+        height = h; 
+    } 
+    
+    public double perimeter() {
+        double perimeter = 0;
+        perimeter = this.width * 2 + this.height * 2;
+        return perimeter;
+    }
+}
+
+8. Absolutely! Many times constructors are overloaded to allow for inputs.
+
+9. a. No b. Yes c. Yes d. Yes
+
+10. An interface is a set of functions with nothing inside them. Interfaces provide templates for classes to follow.
